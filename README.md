@@ -81,7 +81,7 @@ Running the application is very straight forward. You can use the following step
 
 # Authors
 This project was contributed to by:
-- [Ian Okumu](https://github.com/Jobwawesh/)
+- [Job Waweru](https://github.com/Jobwawesh/)
 
 # License
 The project is licensed under GNU General Public License v3.0
