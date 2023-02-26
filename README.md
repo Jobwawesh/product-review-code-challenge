@@ -3,7 +3,8 @@
 ## Entity Relationship Diagram(ERD)
 This ERD is here to demonstrate the relationship between this project's entities.
 
-       ![Screenshot](screenshot.png)
+    <img src="images/ERD.png"/>
+
 
 
 
