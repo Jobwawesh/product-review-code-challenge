@@ -12,11 +12,10 @@ This project was built with the following tools:
 ## Topics Covered
 The following are the concepts covered in this practice session
 
-- Introduction to the Active Record ORM
-- Active Record query methods
-- Using Active Record to create tables
-- Introduction to Rake
-- Basics of DB migrations.
+- Active Record Migrations.
+- Active Record Associations.
+- Class and Instance Methods.
+- Active Record QueryingProject Setup.
 
 
 Documentation on the Ruby language can be found here: [Ruby Docs](https://docs.ruby-lang.org/en/3.1/)
@@ -36,12 +35,12 @@ To use this repo on your machine requires some simple steps
 - Open a terminal / command line interface on your computer
 - Clone the repo by using the following:
 
-        git clone https://github.com/otsembo/l3-ruby-active-record.git
+        git clone https://github.com/Jobwawesh/product-review-code-challenge
 
 - Be patient as it creates a copy on your local machine for you.
 - Change directory to the repo folder:
 
-        cd l3-ruby-active-record
+        cd product-review-code-challenge
 
 - (Optional) Open it in ``Visual Studio Code``
 
@@ -57,7 +56,7 @@ To use this repo on your machine requires some simple steps
 - Take on the process in ``Alternative One`` above.
 - Remember to replace your username when cloning.
 
-        git clone https://github.com/your-username-here/l3-ruby-active-record.git
+        git clone https://github.com/your-username-here product-review-code-challenge
 
 
 # Running the application
@@ -70,11 +69,11 @@ Running the application is very straight forward. You can use the following step
 
 - Run the application on the terminal
 
-      ruby app/app.rb
+      rake console
 
 # Authors
 This project was contributed to by:
-- [Ian Okumu](https://github.com/otsembo/)
+- [Ian Okumu](https://github.com/Jobwawesh/)
 
 # License
-The project is licensed under Apache 2.0.
+The project is licensed under GNU General Public License v3.0
