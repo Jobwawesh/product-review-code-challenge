@@ -1,8 +1,11 @@
 # product-review-code-challenge
-# ActiveRecord Gem
-This repository will be used as the guide during the lecture on fundamentals of handling databases using ActiveRecord in Ruby.
 
-This repo contains a list of `TODOs`. Ensure you complete all of them.
+## Entity Relationship Diagram(ERD)
+This ERD is here to demonstrate the relationship between this project's entities.
+
+       ![Screenshot](screenshot.png)
+
+
 
 ## Tools Used
 This project was built with the following tools:
