@@ -1,6 +1,6 @@
 # product-review-code-challenge
 This is an e-commerce domain that focuses on product reviews. it features a product, the product's users and the reviews users leave for the product. <br>
-The relationship between is  a Product has many Users, a User has many Products’ s, and a Review belongs to a User and to a Product.
+The relationship between these entities is,  a Product has many Users, a User has many Products’ s, and a Review belongs to a User and to a Product.
 
 
 
