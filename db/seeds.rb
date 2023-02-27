@@ -1,6 +1,12 @@
+puts "Deleting old data..."
+Product.destroy_all
+User.destroy_all
+Review.destroy_all
+
+
 puts "Seeding data..."
 
-
+# Creating  new users
 5.times do 
     user =  User.create!(name: Faker::Name.name)
 end
