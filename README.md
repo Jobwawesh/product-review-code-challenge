@@ -33,6 +33,8 @@ In order to use this repo you need to have the following installed:
 
 - OS [either: Windows 10+, Linux or MacOS(running on x86 or arm architecture)]
 - Ruby - 3.1.+
+- SQLite3
+
 
 ## Installation
 
@@ -75,9 +77,9 @@ Running the application is very straight forward. You can use the following step
 
       bundle install
 
-- Run the application on the terminal
+- Generate database tables by running:
 
-      rake console
+      rake db:seed
 
 # Authors
 This project was contributed to by:
