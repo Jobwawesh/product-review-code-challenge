@@ -7,7 +7,7 @@ Review.destroy_all
 
 puts "Seeding data..."
 
-# Creating  new users
+# # Creating  new users
 # 5.times do 
 #     user =  User.create!(name: Faker::Name.name)
 # end
@@ -35,11 +35,11 @@ user5 = User.create(name: Faker::Name.name)
 
 
 puts "Creating products..."
-product1 = Product.create(name: "Sneakers")
-product2 = Product.create(name: "Back Pack")
-product3 = Product.create(name: "Dress")
-product4 = Product.create(name: "high Heels")
-product5 = Product.create(name: "Khaki Trousers")
+product1 = Product.create(name: "Sneakers", price: 2500)
+product2 = Product.create(name: "Back Pack", price: 1500)
+product3 = Product.create(name: "Dress", price: 1700)
+product4 = Product.create(name: "high Heels", price: 3500)
+product5 = Product.create(name: "Khaki Trousers", price: 1500)
 
 puts "Creating reviews..."
 review1 = Review.create(star_rating: 8, comment: "Great")
