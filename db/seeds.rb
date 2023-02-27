@@ -30,44 +30,37 @@ puts "Creating users..."
 user1 = User.create(name: Faker::Name.name)
 user2 = User.create(name: Faker::Name.name)
 user3 = User.create(name: Faker::Name.name)
+user4 = User.create(name: Faker::Name.name)
+user5 = User.create(name: Faker::Name.name)
+
 
 puts "Creating products..."
-product1 = Product.create(name: "Stapler")
-product2 = Product.create(name: "Whiteboard")
-product3 = Product.create(name: "Dry Erase Markers")
-product4 = Product.create(name: "Ballpoint Pens")
-product5 = Product.create(name: "Scotch Tape")
+product1 = Product.create(name: "Sneakers")
+product2 = Product.create(name: "Back Pack")
+product3 = Product.create(name: "Dress")
+product4 = Product.create(name: "high Heels")
+product5 = Product.create(name: "Khaki Trousers")
 
 puts "Creating reviews..."
-review1 = Review.create(star_rating: 8, comment: "Cool")
+review1 = Review.create(star_rating: 8, comment: "Great")
 review2 = Review.create(star_rating: 9, comment: "Effective")
 review3 = Review.create(star_rating: 6, comment: "Awesome")
-review4 = Review.create(star_rating: 5, comment: "Average")
-review5 = Review.create(star_rating: 4, comment: "Disappointing")
-review6 = Review.create(star_rating: 10, comment: "Excellent")
-review7 = Review.create(star_rating: 8, comment: "Great")
+review4 = Review.create(star_rating: 4, comment: "Disappointing")
+review5 = Review.create(star_rating: 10, comment: "Excellent")
 
 # PRODUCT reviews
-# product1.reviews << review5
-# product1.reviews << review4
+product1.reviews << review5
+product2.reviews << review4
+product3.reviews << review3
+product4.reviews << review2
+product5.reviews << review1
 
-# product2.reviews << review6
-# product2.reviews << review7
-
-# product3.reviews << review3
-
-# product4.reviews << review2
-
-# product5.reviews << review1
-
-# # USER reviews
-# user1.reviews << review4
-
-# user2.reviews << review5
-# user2.reviews << review3
-
-# user3.reviews << review2
-# user3.reviews << review1
+# USER reviews
+user1.reviews << review4
+user2.reviews << review5
+user3.reviews << review3
+user4.reviews << review2
+user5.reviews << review1
 
 
 puts "Done seeding!"
