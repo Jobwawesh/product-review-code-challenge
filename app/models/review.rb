@@ -4,3 +4,7 @@ class Review < ActiveRecord::Base
 
 #   enum star_rating: [:BAD, :POOR, :OKAY, :GOOD, :EXCELLENT]
 end
+
+def print_all_reviews
+    puts "Review for #{self.name} by #{self.name}: #{star_rating_before_type_cast}. #{comment}\n\n"
+end
